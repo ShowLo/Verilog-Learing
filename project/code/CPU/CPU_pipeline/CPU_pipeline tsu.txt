@@ -1,0 +1,55 @@
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+CPU_pipeline tsu
+
+Slack	Required tsu	Actual tsu	From	To	To Clock
+N/A	None	6.382 ns	reset	Peripheral:Ph1|digi[8]	sysclk
+N/A	None	6.382 ns	reset	Peripheral:Ph1|digi[9]	sysclk
+N/A	None	6.232 ns	reset	Peripheral:Ph1|digi[11]	sysclk
+N/A	None	6.232 ns	reset	Peripheral:Ph1|digi[10]	sysclk
+N/A	None	5.788 ns	reset	Peripheral:Ph1|led[0]	sysclk
+N/A	None	5.788 ns	reset	Peripheral:Ph1|led[6]	sysclk
+N/A	None	5.788 ns	reset	Peripheral:Ph1|led[5]	sysclk
+N/A	None	5.788 ns	reset	Peripheral:Ph1|led[7]	sysclk
+N/A	None	5.788 ns	reset	Peripheral:Ph1|led[2]	sysclk
+N/A	None	5.788 ns	reset	Peripheral:Ph1|led[4]	sysclk
+N/A	None	5.788 ns	reset	Peripheral:Ph1|led[1]	sysclk
+N/A	None	5.788 ns	reset	Peripheral:Ph1|led[3]	sysclk
+N/A	None	5.720 ns	reset	Peripheral:Ph1|digi[0]	sysclk
+N/A	None	5.720 ns	reset	Peripheral:Ph1|digi[6]	sysclk
+N/A	None	5.720 ns	reset	Peripheral:Ph1|digi[5]	sysclk
+N/A	None	5.720 ns	reset	Peripheral:Ph1|digi[7]	sysclk
+N/A	None	5.720 ns	reset	Peripheral:Ph1|digi[2]	sysclk
+N/A	None	5.720 ns	reset	Peripheral:Ph1|digi[4]	sysclk
+N/A	None	5.720 ns	reset	Peripheral:Ph1|digi[1]	sysclk
+N/A	None	5.720 ns	reset	Peripheral:Ph1|digi[3]	sysclk
+N/A	None	5.427 ns	UART_RX	UART:UART1|UART_Receiver:r1|temp	sysclk
+N/A	None	5.417 ns	switch[1]	MEM_WB:MEM_WB1|ReadData_out[1]	sysclk
+N/A	None	5.328 ns	switch[2]	MEM_WB:MEM_WB1|ReadData_out[2]	sysclk
+N/A	None	5.078 ns	UART_RX	UART:UART1|UART_Receiver:r1|enable	sysclk
+N/A	None	4.859 ns	switch[0]	MEM_WB:MEM_WB1|ReadData_out[0]	sysclk
+N/A	None	4.691 ns	switch[4]	MEM_WB:MEM_WB1|ReadData_out[4]	sysclk
+N/A	None	4.014 ns	switch[3]	MEM_WB:MEM_WB1|ReadData_out[3]	sysclk
+N/A	None	3.285 ns	UART_RX	UART:UART1|UART_Receiver:r1|RX_DATA[7]	sysclk
+N/A	None	3.284 ns	UART_RX	UART:UART1|UART_Receiver:r1|RX_DATA[2]	sysclk
+N/A	None	3.284 ns	UART_RX	UART:UART1|UART_Receiver:r1|RX_DATA[5]	sysclk
+N/A	None	3.283 ns	UART_RX	UART:UART1|UART_Receiver:r1|RX_DATA[3]	sysclk
+N/A	None	3.283 ns	UART_RX	UART:UART1|UART_Receiver:r1|RX_DATA[6]	sysclk
+N/A	None	3.281 ns	UART_RX	UART:UART1|UART_Receiver:r1|RX_DATA[0]	sysclk
+N/A	None	3.277 ns	UART_RX	UART:UART1|UART_Receiver:r1|RX_DATA[4]	sysclk
+N/A	None	3.271 ns	UART_RX	UART:UART1|UART_Receiver:r1|RX_DATA[1]	sysclk
+N/A	None	2.481 ns	switch[7]	MEM_WB:MEM_WB1|ReadData_out[7]	sysclk
+N/A	None	2.296 ns	switch[5]	MEM_WB:MEM_WB1|ReadData_out[5]	sysclk
+N/A	None	1.670 ns	switch[6]	MEM_WB:MEM_WB1|ReadData_out[6]	sysclk

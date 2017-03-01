@@ -1,0 +1,166 @@
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+CPU_single tco
+
+Slack	Required tco	Actual tco	From	To	From Clock
+N/A	None	22.455 ns	Peripheral:Ph1|digi[10]	digi_out2[2]	sysclk
+N/A	None	22.314 ns	Peripheral:Ph1|digi[11]	digi_out2[2]	sysclk
+N/A	None	22.147 ns	Peripheral:Ph1|digi[10]	digi_out2[6]	sysclk
+N/A	None	22.006 ns	Peripheral:Ph1|digi[11]	digi_out2[6]	sysclk
+N/A	None	21.735 ns	Peripheral:Ph1|digi[9]	digi_out3[3]	sysclk
+N/A	None	21.700 ns	Peripheral:Ph1|digi[9]	digi_out3[2]	sysclk
+N/A	None	21.689 ns	Peripheral:Ph1|digi[9]	digi_out3[4]	sysclk
+N/A	None	21.680 ns	Peripheral:Ph1|digi[9]	digi_out3[6]	sysclk
+N/A	None	21.677 ns	Peripheral:Ph1|digi[9]	digi_out3[0]	sysclk
+N/A	None	21.662 ns	Peripheral:Ph1|digi[9]	digi_out3[1]	sysclk
+N/A	None	21.655 ns	Peripheral:Ph1|digi[9]	digi_out4[5]	sysclk
+N/A	None	21.644 ns	Peripheral:Ph1|digi[9]	digi_out4[0]	sysclk
+N/A	None	21.635 ns	Peripheral:Ph1|digi[10]	digi_out2[5]	sysclk
+N/A	None	21.601 ns	Peripheral:Ph1|digi[10]	digi_out2[3]	sysclk
+N/A	None	21.502 ns	Peripheral:Ph1|digi[10]	digi_out2[4]	sysclk
+N/A	None	21.494 ns	Peripheral:Ph1|digi[11]	digi_out2[5]	sysclk
+N/A	None	21.460 ns	Peripheral:Ph1|digi[11]	digi_out2[3]	sysclk
+N/A	None	21.434 ns	Peripheral:Ph1|digi[9]	digi_out4[2]	sysclk
+N/A	None	21.427 ns	Peripheral:Ph1|digi[9]	digi_out4[1]	sysclk
+N/A	None	21.400 ns	Peripheral:Ph1|digi[9]	digi_out4[3]	sysclk
+N/A	None	21.390 ns	Peripheral:Ph1|digi[9]	digi_out4[4]	sysclk
+N/A	None	21.370 ns	Peripheral:Ph1|digi[9]	digi_out3[5]	sysclk
+N/A	None	21.361 ns	Peripheral:Ph1|digi[11]	digi_out2[4]	sysclk
+N/A	None	21.337 ns	Peripheral:Ph1|digi[9]	digi_out4[6]	sysclk
+N/A	None	21.335 ns	Peripheral:Ph1|digi[10]	digi_out2[1]	sysclk
+N/A	None	21.293 ns	Peripheral:Ph1|digi[10]	digi_out2[0]	sysclk
+N/A	None	21.194 ns	Peripheral:Ph1|digi[11]	digi_out2[1]	sysclk
+N/A	None	21.152 ns	Peripheral:Ph1|digi[11]	digi_out2[0]	sysclk
+N/A	None	20.916 ns	Peripheral:Ph1|digi[6]	digi_out4[6]	sysclk
+N/A	None	20.784 ns	Peripheral:Ph1|digi[6]	digi_out3[6]	sysclk
+N/A	None	20.779 ns	Peripheral:Ph1|digi[10]	digi_out1[2]	sysclk
+N/A	None	20.758 ns	Peripheral:Ph1|digi[10]	digi_out1[4]	sysclk
+N/A	None	20.638 ns	Peripheral:Ph1|digi[11]	digi_out1[2]	sysclk
+N/A	None	20.627 ns	Peripheral:Ph1|digi[10]	digi_out1[1]	sysclk
+N/A	None	20.617 ns	Peripheral:Ph1|digi[11]	digi_out1[4]	sysclk
+N/A	None	20.610 ns	Peripheral:Ph1|digi[10]	digi_out1[0]	sysclk
+N/A	None	20.595 ns	Peripheral:Ph1|digi[8]	digi_out3[3]	sysclk
+N/A	None	20.586 ns	Peripheral:Ph1|digi[10]	digi_out1[3]	sysclk
+N/A	None	20.560 ns	Peripheral:Ph1|digi[8]	digi_out3[2]	sysclk
+N/A	None	20.549 ns	Peripheral:Ph1|digi[8]	digi_out3[4]	sysclk
+N/A	None	20.540 ns	Peripheral:Ph1|digi[8]	digi_out3[6]	sysclk
+N/A	None	20.537 ns	Peripheral:Ph1|digi[8]	digi_out3[0]	sysclk
+N/A	None	20.522 ns	Peripheral:Ph1|digi[8]	digi_out3[1]	sysclk
+N/A	None	20.515 ns	Peripheral:Ph1|digi[8]	digi_out4[5]	sysclk
+N/A	None	20.504 ns	Peripheral:Ph1|digi[8]	digi_out4[0]	sysclk
+N/A	None	20.497 ns	Peripheral:Ph1|digi[6]	digi_out2[6]	sysclk
+N/A	None	20.486 ns	Peripheral:Ph1|digi[11]	digi_out1[1]	sysclk
+N/A	None	20.469 ns	Peripheral:Ph1|digi[11]	digi_out1[0]	sysclk
+N/A	None	20.445 ns	Peripheral:Ph1|digi[11]	digi_out1[3]	sysclk
+N/A	None	20.380 ns	Peripheral:Ph1|digi[9]	digi_out2[6]	sysclk
+N/A	None	20.362 ns	Peripheral:Ph1|digi[10]	digi_out1[6]	sysclk
+N/A	None	20.359 ns	Peripheral:Ph1|digi[9]	digi_out2[2]	sysclk
+N/A	None	20.347 ns	Peripheral:Ph1|digi[10]	digi_out1[5]	sysclk
+N/A	None	20.294 ns	Peripheral:Ph1|digi[8]	digi_out4[2]	sysclk
+N/A	None	20.287 ns	Peripheral:Ph1|digi[8]	digi_out4[1]	sysclk
+N/A	None	20.260 ns	Peripheral:Ph1|digi[8]	digi_out4[3]	sysclk
+N/A	None	20.250 ns	Peripheral:Ph1|digi[8]	digi_out4[4]	sysclk
+N/A	None	20.230 ns	Peripheral:Ph1|digi[8]	digi_out3[5]	sysclk
+N/A	None	20.221 ns	Peripheral:Ph1|digi[11]	digi_out1[6]	sysclk
+N/A	None	20.206 ns	Peripheral:Ph1|digi[11]	digi_out1[5]	sysclk
+N/A	None	20.197 ns	Peripheral:Ph1|digi[8]	digi_out4[6]	sysclk
+N/A	None	20.038 ns	Peripheral:Ph1|digi[8]	digi_out2[2]	sysclk
+N/A	None	20.018 ns	Peripheral:Ph1|digi[4]	digi_out3[4]	sysclk
+N/A	None	19.914 ns	Peripheral:Ph1|digi[3]	digi_out3[3]	sysclk
+N/A	None	19.882 ns	Peripheral:Ph1|digi[9]	digi_out2[5]	sysclk
+N/A	None	19.863 ns	Peripheral:Ph1|digi[1]	digi_out3[1]	sysclk
+N/A	None	19.854 ns	Peripheral:Ph1|digi[8]	digi_out2[6]	sysclk
+N/A	None	19.845 ns	Peripheral:Ph1|digi[9]	digi_out2[3]	sysclk
+N/A	None	19.764 ns	Peripheral:Ph1|digi[5]	digi_out4[5]	sysclk
+N/A	None	19.740 ns	Peripheral:Ph1|led[3]	led[3]	sysclk
+N/A	None	19.721 ns	Peripheral:Ph1|digi[4]	digi_out4[4]	sysclk
+N/A	None	19.627 ns	Peripheral:Ph1|digi[1]	digi_out4[1]	sysclk
+N/A	None	19.593 ns	Peripheral:Ph1|digi[3]	digi_out4[3]	sysclk
+N/A	None	19.573 ns	UART:UART1|UART_Sender:s1|UART_TX	UART_TX	sysclk
+N/A	None	19.566 ns	Peripheral:Ph1|digi[0]	digi_out3[0]	sysclk
+N/A	None	19.565 ns	Peripheral:Ph1|digi[9]	digi_out2[1]	sysclk
+N/A	None	19.535 ns	Peripheral:Ph1|digi[0]	digi_out4[0]	sysclk
+N/A	None	19.526 ns	Peripheral:Ph1|digi[9]	digi_out2[0]	sysclk
+N/A	None	19.515 ns	Peripheral:Ph1|led[0]	led[0]	sysclk
+N/A	None	19.496 ns	Peripheral:Ph1|digi[5]	digi_out3[5]	sysclk
+N/A	None	19.451 ns	Peripheral:Ph1|digi[2]	digi_out2[2]	sysclk
+N/A	None	19.450 ns	Peripheral:Ph1|led[6]	led[6]	sysclk
+N/A	None	19.440 ns	Peripheral:Ph1|led[1]	led[1]	sysclk
+N/A	None	19.383 ns	Peripheral:Ph1|digi[9]	digi_out2[4]	sysclk
+N/A	None	19.358 ns	Peripheral:Ph1|digi[8]	digi_out2[5]	sysclk
+N/A	None	19.321 ns	Peripheral:Ph1|digi[8]	digi_out2[1]	sysclk
+N/A	None	19.319 ns	Peripheral:Ph1|digi[8]	digi_out2[3]	sysclk
+N/A	None	19.278 ns	Peripheral:Ph1|digi[8]	digi_out2[0]	sysclk
+N/A	None	19.252 ns	Peripheral:Ph1|led[2]	led[2]	sysclk
+N/A	None	19.241 ns	Peripheral:Ph1|digi[5]	digi_out2[5]	sysclk
+N/A	None	19.188 ns	Peripheral:Ph1|digi[3]	digi_out2[3]	sysclk
+N/A	None	19.070 ns	Peripheral:Ph1|digi[8]	digi_out2[4]	sysclk
+N/A	None	18.955 ns	Peripheral:Ph1|digi[4]	digi_out2[4]	sysclk
+N/A	None	18.943 ns	Peripheral:Ph1|led[5]	led[5]	sysclk
+N/A	None	18.863 ns	Peripheral:Ph1|digi[9]	digi_out1[1]	sysclk
+N/A	None	18.863 ns	Peripheral:Ph1|digi[9]	digi_out1[0]	sysclk
+N/A	None	18.838 ns	Peripheral:Ph1|digi[9]	digi_out1[3]	sysclk
+N/A	None	18.827 ns	Peripheral:Ph1|digi[0]	digi_out2[0]	sysclk
+N/A	None	18.819 ns	Peripheral:Ph1|digi[2]	digi_out3[2]	sysclk
+N/A	None	18.699 ns	Peripheral:Ph1|digi[1]	digi_out2[1]	sysclk
+N/A	None	18.688 ns	Peripheral:Ph1|digi[9]	digi_out1[4]	sysclk
+N/A	None	18.686 ns	Peripheral:Ph1|digi[9]	digi_out1[2]	sysclk
+N/A	None	18.614 ns	Peripheral:Ph1|digi[9]	digi_out1[6]	sysclk
+N/A	None	18.611 ns	Peripheral:Ph1|digi[8]	digi_out1[0]	sysclk
+N/A	None	18.595 ns	Peripheral:Ph1|digi[9]	digi_out1[5]	sysclk
+N/A	None	18.586 ns	Peripheral:Ph1|digi[8]	digi_out1[3]	sysclk
+N/A	None	18.562 ns	Peripheral:Ph1|led[7]	led[7]	sysclk
+N/A	None	18.549 ns	Peripheral:Ph1|digi[2]	digi_out4[2]	sysclk
+N/A	None	18.362 ns	Peripheral:Ph1|digi[8]	digi_out1[6]	sysclk
+N/A	None	18.359 ns	Peripheral:Ph1|digi[6]	digi_out1[6]	sysclk
+N/A	None	18.345 ns	Peripheral:Ph1|digi[8]	digi_out1[2]	sysclk
+N/A	None	18.343 ns	Peripheral:Ph1|digi[8]	digi_out1[5]	sysclk
+N/A	None	18.340 ns	Peripheral:Ph1|digi[8]	digi_out1[4]	sysclk
+N/A	None	18.338 ns	Peripheral:Ph1|digi[8]	digi_out1[1]	sysclk
+N/A	None	18.274 ns	Peripheral:Ph1|digi[1]	digi_out1[1]	sysclk
+N/A	None	18.217 ns	Peripheral:Ph1|digi[4]	digi_out1[4]	sysclk
+N/A	None	18.157 ns	Peripheral:Ph1|digi[0]	digi_out1[0]	sysclk
+N/A	None	18.101 ns	Peripheral:Ph1|led[4]	led[4]	sysclk
+N/A	None	17.906 ns	Peripheral:Ph1|digi[3]	digi_out1[3]	sysclk
+N/A	None	17.779 ns	Peripheral:Ph1|digi[11]	digi_out4[6]	sysclk
+N/A	None	17.763 ns	Peripheral:Ph1|digi[2]	digi_out1[2]	sysclk
+N/A	None	17.679 ns	Peripheral:Ph1|digi[5]	digi_out1[5]	sysclk
+N/A	None	17.676 ns	Peripheral:Ph1|digi[10]	digi_out4[6]	sysclk
+N/A	None	17.648 ns	Peripheral:Ph1|digi[11]	digi_out3[4]	sysclk
+N/A	None	17.645 ns	Peripheral:Ph1|digi[11]	digi_out3[6]	sysclk
+N/A	None	17.514 ns	Peripheral:Ph1|digi[11]	digi_out3[3]	sysclk
+N/A	None	17.481 ns	Peripheral:Ph1|digi[11]	digi_out3[2]	sysclk
+N/A	None	17.458 ns	Peripheral:Ph1|digi[11]	digi_out3[0]	sysclk
+N/A	None	17.442 ns	Peripheral:Ph1|digi[11]	digi_out3[1]	sysclk
+N/A	None	17.409 ns	Peripheral:Ph1|digi[11]	digi_out4[5]	sysclk
+N/A	None	17.402 ns	Peripheral:Ph1|digi[11]	digi_out4[0]	sysclk
+N/A	None	17.366 ns	Peripheral:Ph1|digi[10]	digi_out3[3]	sysclk
+N/A	None	17.348 ns	Peripheral:Ph1|digi[11]	digi_out4[4]	sysclk
+N/A	None	17.344 ns	Peripheral:Ph1|digi[10]	digi_out3[6]	sysclk
+N/A	None	17.338 ns	Peripheral:Ph1|digi[10]	digi_out3[2]	sysclk
+N/A	None	17.335 ns	Peripheral:Ph1|digi[10]	digi_out3[0]	sysclk
+N/A	None	17.331 ns	Peripheral:Ph1|digi[10]	digi_out3[4]	sysclk
+N/A	None	17.306 ns	Peripheral:Ph1|digi[10]	digi_out4[0]	sysclk
+N/A	None	17.303 ns	Peripheral:Ph1|digi[10]	digi_out4[5]	sysclk
+N/A	None	17.299 ns	Peripheral:Ph1|digi[10]	digi_out3[1]	sysclk
+N/A	None	17.186 ns	Peripheral:Ph1|digi[11]	digi_out4[2]	sysclk
+N/A	None	17.181 ns	Peripheral:Ph1|digi[11]	digi_out4[1]	sysclk
+N/A	None	17.158 ns	Peripheral:Ph1|digi[11]	digi_out3[5]	sysclk
+N/A	None	17.154 ns	Peripheral:Ph1|digi[11]	digi_out4[3]	sysclk
+N/A	None	17.060 ns	Peripheral:Ph1|digi[10]	digi_out4[2]	sysclk
+N/A	None	17.060 ns	Peripheral:Ph1|digi[10]	digi_out4[1]	sysclk
+N/A	None	17.053 ns	Peripheral:Ph1|digi[10]	digi_out4[3]	sysclk
+N/A	None	17.035 ns	Peripheral:Ph1|digi[10]	digi_out3[5]	sysclk
+N/A	None	17.032 ns	Peripheral:Ph1|digi[10]	digi_out4[4]	sysclk
